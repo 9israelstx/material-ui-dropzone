@@ -41,7 +41,7 @@ class DropzoneArea extends React.PureComponent {
         const {fileObjects} = this.state;
 
         if (onChange) {
-            onChange(fileObjects.map((fileObject) => fileObject.file));
+            onChange(fileObjects.map((fileObject) => fileObject));
         }
     }
 
